@@ -3,7 +3,8 @@
 		"authors": [
 			"Eduardoaddad",
 			"Flaviane da Silva",
-			"Fúlvio"
+			"Fúlvio",
+			"YuriNikolai"
 		]
 	},
 	"datamap-desc": "Permite embeber mapas interativos nas páginas da wiki.",
@@ -23,11 +24,13 @@
 	"datamap-error-validate-invalid-json": "Esse não é um documento JSON valido.",
 	"datamap-validate-constraint-required": "A própriedade necessária está faltando: <code>$1</code>",
 	"datamap-validate-constraint-type": "A propriedade é de formato inesperado: <code>$1</code>",
+	"datamap-validate-constraint-unexpected": "Uma propriedade inesperada foi passada: <code>$1</code>",
 	"datamap-validate-constraint-regex": "A propriedade do texto não corresponde com o formato experado: <code>$1</code>",
 	"datamap-validate-constraint-empty": "A propriedade do texto não pode estar vazia: <code>$1</code>.",
 	"datamap-validate-constraint-minlength": "A propriedade do texto deve conter pelo menos $2 characteres: <code>$1</code>.",
 	"datamap-validate-constraint-minimum": "Propriedades numericas devem conter um calor maior que $2: <code>$1</code>.",
 	"datamap-validate-constraint-maximum": "Propeidades numericas devem conter um calor menor que $2: <code>$1</code>.",
+	"datamap-validate-constraint-requiredfile": "Os arquivos a seguir são referenciados mas não existem: $1",
 	"datamap-error-validatespec-map-mixin-with-mixins": "Outros fragmentos não podem ser referenciados em um fragmento.",
 	"datamap-error-pf-page-does-not-exist": "A página do código-fonte do mapa \"[[$1]]\" não existe.",
 	"datamap-background-name-fallback": "Sem título",
@@ -42,6 +45,7 @@
 	"datamap-toggle-hide-all": "Ocultar tudo",
 	"datamap-layer-control": "Alternar",
 	"datamap-legend-tab-checklist": "Lista de verificação",
+	"datamap-legend-tab-progress": "Rastreio de progresso",
 	"datamap-checklist-prelude": "Esses são os itens que você marcou como coletados:",
 	"datamap-interact-touch": "Use dois dedos para mover o mapa",
 	"datamap-interact-scroll": "Use CTRL + Scroll para ampliar o mapa",
@@ -54,6 +58,7 @@
 	"datamap-popup-marker-link-get": "Obtenha um link compartilhável",
 	"datamap-popup-marker-link-copied": "Ligação copiada para a sua área de transferência.",
 	"datamap-userpref-load-map-always": "Sempre carregar mapas",
+	"datamap-userpref-load-map-never": "Carregar mapas somente quando eu clicar neles",
 	"datamap-coordinate-control-text": "Latitude $1, Longitude $2",
 	"datamap-control-zoom-in": "Ampliar",
 	"datamap-control-zoom-out": "Diminuir o zoom",
