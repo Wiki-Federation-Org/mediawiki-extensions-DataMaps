@@ -16,7 +16,7 @@ class NumberConstraintEx extends NumberConstraint {
     /**
      * {@inheritdoc}
      */
-    public function check( &$element, $schema = null, JsonPointer $path = null, $i = null ) {
+    public function check( &$element, $schema = null, ?JsonPointer $path = null, $i = null ) {
         // Verify minimum
         if ( isset( $schema->exclusiveMinimum ) && filter_var( $schema->exclusiveMinimum, FILTER_VALIDATE_BOOLEAN ) ) {
             // Draft 4 schema

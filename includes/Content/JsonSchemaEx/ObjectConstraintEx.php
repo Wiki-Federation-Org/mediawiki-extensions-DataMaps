@@ -13,7 +13,7 @@ class ObjectConstraintEx extends ObjectConstraint {
         $element,
         $matches,
         $schema = null,
-        JsonPointer $path = null,
+        ?JsonPointer $path = null,
         $properties = null,
         $additionalProp = null
     ) {
