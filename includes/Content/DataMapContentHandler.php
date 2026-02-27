@@ -16,7 +16,7 @@ use Title;
 
 class DataMapContentHandler extends JsonContentHandler {
     public function __construct( $modelId = CONTENT_MODEL_DATAMAPS ) {
-        parent::__construct( $modelId, [ CONTENT_MODEL_DATAMAPS ] );
+        parent::__construct( $modelId );
     }
 
     protected function getContentClass() {
