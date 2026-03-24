@@ -280,8 +280,8 @@ module.exports = class MarkerPopup {
                 classes: [
                     'cdx-button',
                     'cdx-button--action-progressive',
-                    'cdx-button--weight-quiet',
-                    'cdx-button--size-small',
+                    'cdx-button--weight-normal',
+                    'cdx-button--size-medium',
                     'cdx-button--framed'
                 ],
                 text: labelText

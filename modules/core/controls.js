@@ -363,7 +363,7 @@ class ToggleFullscreen extends MapControl {
 
         this._button = this._makeButton( {
             addToSelf: true,
-            svg: CodexIcon.cdxIconFullScreen,
+            svg: CodexIcon.cdxIconFullscreen,
             tooltip: mw.msg( 'datamap-control-fullscreen' ),
             clickHandler: () => {
                 this.map.setFullScreen( !this.map.isFullScreen() );
@@ -377,7 +377,7 @@ class ToggleFullscreen extends MapControl {
         const state = this.map.isFullScreen(),
             element = getNonNull( this._button.firstElementChild );
         element.innerHTML = '';
-        element.append( createCdxIconElement( CodexIcon[ state ? 'cdxIconExitFullscreen' : 'cdxIconFullScreen' ] ) );
+        element.append( createCdxIconElement( CodexIcon[ state ? 'cdxIconExitFullscreen' : 'cdxIconFullscreen' ] ) );
     }
 }
 

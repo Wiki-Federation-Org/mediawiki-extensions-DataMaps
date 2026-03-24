@@ -72,6 +72,7 @@
     "datamap-interact-scroll-mac": "Use ⌘ + Scroll to zoom the map",
     "datamap-layer-surface": "Surface",
     "datamap-layer-cave": "Caves",
+    "datamap-popup-close": "Close",
     "datamap-popup-related-article": "Read more",
     "datamap-popup-dismissed": "Collected",
     "datamap-popup-mark-as-dismissed": "Mark as collected",

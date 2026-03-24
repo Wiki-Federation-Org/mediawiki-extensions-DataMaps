@@ -36,6 +36,11 @@
     .oo-ui-buttonGroupWidget .oo-ui-buttonElement {
         z-index: unset;
     }
+
+    /* Offset adjacent button groups */
+    > .ext-datamaps-control--button-group + .ext-datamaps-control--button-group {
+        margin-top: 4px;
+    }
 }
 
 .ext-datamaps-control-expandable {
@@ -43,7 +48,8 @@
     max-height: 30px;
     flex-direction: column;
     background-color: @background-color-base;
-    border: 1px solid @border-color-base;
+    /* Match the associated button which is of action=progressive */
+    border: 1px solid @border-color-progressive;
     border-radius: 2px;
 
     &[ aria-expanded='true' ] {

@@ -94,14 +94,9 @@
     .ext-datamaps-popup-tools {
         display: flex;
         flex-wrap: wrap;
-        margin: @popup-spacing--tools-top 0 0;
-        gap: 0.5em;
-
-        .cdx-button.cdx-button--size-small {
-            padding: 2px 4px;
-            min-height: unset;
-            box-sizing: border-box;
-        }
+        margin: @popup-spacing--tools-top calc( @popup-padding--horizontal * -0.375 ) calc( @popup-spacing--tools-top * -0.5 );
+        gap: 0.2em 0.3em;
+        --font-size-medium: 0.8rem;
 
         > a:has( .cdx-button ) {
             display: flex;

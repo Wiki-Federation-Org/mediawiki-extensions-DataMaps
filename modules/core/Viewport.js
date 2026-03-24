@@ -211,7 +211,6 @@ class Viewport extends EventEmitter {
         // If zoom is locked, disable all zoom controls
         if ( mapConfig.zoom.lock ) {
             mapConfig.leafletSettings = $.extend( {
-                zoomControl: false,
                 boxZoom: false,
                 doubleClickZoom: false,
                 scrollWheelZoom: false,
@@ -257,11 +256,7 @@ class Viewport extends EventEmitter {
             shouldScaleMarkers: true,
             markerZoomScaleFactor: 1.8,
             // Zoom control
-            zoomControlOptions: {
-                position: 'bottomright',
-                zoomInTitle: mw.msg( 'datamap-control-zoom-in' ),
-                zoomOutTitle: mw.msg( 'datamap-control-zoom-out' )
-            },
+            zoomControl: false,
             // Allow rendering icon markers on a canvas
             allowIconsOnCanvas: true,
 

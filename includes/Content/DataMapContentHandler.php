@@ -119,7 +119,7 @@ class DataMapContentHandler extends JsonContentHandler {
             }
             $docOutput = $parser->parse( $docMsg->plain(), $pageRef, $parserOptions, true, true, $cpoParams->getRevId() );
             if ( $generateHtml ) {
-                $html .= $docOutput->getRawText();
+                $html .= $docOutput->getContentHolderText();
             }
         }
 
@@ -146,7 +146,7 @@ class DataMapContentHandler extends JsonContentHandler {
             $parserOutput->mergeInternalMetaDataFrom( $docOutput );
             $parserOutput->mergeTrackingMetaDataFrom( $docOutput );
         }
-        $parserOutput->setText( $html );
+        $parserOutput->setContentHolderText( $html );
     }
 
     /**
